@@ -1,0 +1,277 @@
+body, html{
+    height: 100%;
+  	margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+header{
+	margin: 10px 10px;
+	display: flex;
+	justify-content: center;
+}
+
+header img{
+	width: 65px;
+	margin-left: 50px;
+}
+
+.fas{
+	font-size: 25px;
+}
+
+.background{
+	margin-top: 15px;
+	width: 100%;
+	height: 100%;
+	background-image: url(img/back2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.container .title{
+	color: #14ccbc;
+	font-size: 65px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+.container .para{
+	color: whitesmoke;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	width: 15em;
+	position: relative;
+	bottom: 85px;
+	left: 10px;
+}
+
+.Boxes{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 350px);
+	grid-gap: 50px;
+	justify-content: center;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.fas{
+	color: #14ccbc;
+	font-size: 57px;
+}
+
+.box h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 21px;
+}
+
+.box p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #777;
+	width: 68%;
+	position: relative;
+	bottom: 27px;
+	line-height: 1.6;
+}
+
+.space{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.space h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 70px;
+	color: lightgrey;
+	opacity: 0.6;
+}
+
+.space p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	position: relative;
+	bottom: 160px;
+}
+
+.items{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(30rem, 3fr));
+	grid-gap: 100px 10px;
+	justify-items: center;
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+	width: 38%;
+}
+
+
+.item .fas{
+	position: relative;
+	right: 64px;
+	top: 13px;
+}
+
+.item h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+.item p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	color: #777;
+	line-height: 1.6;
+}
+
+.items-2{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(20rem, 3fr));
+	justify-items: center;
+
+}
+
+.table{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+	margin-left: 10px;
+}
+
+.table img{
+	width: 300px;
+}
+
+.table h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+}
+
+.table p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #50504A;
+	width: 75%;
+	position: relative;
+	bottom: 30px;
+}
+
+.items-3{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.items-3 .about-1 img{
+	width: 300px;
+}
+
+.about-2 {
+	width: 50%;
+}
+
+.about-2 p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.about-2 .bold{
+	font-size: 20px;
+	font-weight: 1000;
+	border-bottom: solid #14ccbc;
+}
+
+.about-2 .normal{
+	color: #50504A;
+	font-size: 18px;
+}
+
+.last{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.last .p-1, .p-2{
+  font-size: 35px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.last .p-1{
+	color: #2c4755;
+	margin: 0;
+}
+
+.last .p-2 a{
+	text-decoration: none;
+	color: #25cab7;
+	margin: 0;
+}
+
+.pp{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.p-3{
+	font-family: 'Open Sans', sans-serif;
+	color: #2c4755;
+	font-weight: bold;
+	margin: 0;
+}
+
+.pp .fab{
+	color: #2c4755;
+	margin: 8px;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #2c4755;
+	width: 100%;
+	height: 73px;
+	margin-top: 60px;
+}
+
+footer p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: white;
+	margin: 3px;
+}
+
+footer .Colored{
+	color: #25cab7;
+}
